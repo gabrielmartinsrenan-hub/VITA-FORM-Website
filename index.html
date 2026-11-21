@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore thoughtfully formulated wellness supplements and build healthy daily routines.">
+  <title>VITA FORM | Wellness Supplements</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">WELLNESS STARTS WITH THE LITTLE THINGS — EXPLORE THE COLLECTION</div>
+  <header class="header">
+    <a class="logo" href="#home"><span class="logo-mark">V</span><span>VITA FORM<small>DAILY WELLNESS</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="nav"><a href="#home">Home</a><a href="#shop">Shop</a><a href="#our-approach">Our approach</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
+    <a class="cart-link" href="#shop">SHOP NOW <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">A MORE MINDFUL DAILY ROUTINE</span>
+        <h1>Wellness is a journey.<br><em>Make it yours.</em></h1>
+        <p>Thoughtfully selected wellness supplements to complement balanced habits, mindful choices and your everyday routine.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#shop">EXPLORE PRODUCTS <span>→</span></a><a class="underlink" href="#our-approach">Discover our approach</a></div>
+        <div class="trust-line"><span>✳</span> SIMPLE ROUTINES. INFORMED CHOICES. EVERY DAY.</div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=1200&q=85" alt="Minimal wellness product bottles and natural ingredients">
+        <div class="floating-note"><span>✦</span><div><b>Your routine, your pace</b><small>Make informed wellness choices</small></div></div>
+      </div>
+      <div class="vertical-note">VITA FORM · DAILY WELLNESS · VITA FORM</div>
+    </section>
+
+    <section class="principles">
+      <div><span>✳</span><p><b>Thoughtful selection</b><small>Explore products with clear information</small></p></div>
+      <div><span>♡</span><p><b>Everyday balance</b><small>Wellness alongside healthy habits</small></p></div>
+      <div><span>◷</span><p><b>Here to help</b><small>Questions? Our team is ready to assist</small></p></div>
+    </section>
+
+    <section class="shop section" id="shop">
+      <div class="section-heading"><div><span class="eyebrow">THE VITA FORM COLLECTION</span><h2>Find your daily <em>essentials.</em></h2></div><p>Browse our wellness collection and read each product label carefully before making a choice.</p></div>
+      <div class="filters" id="filters"><button class="filter active" data-filter="all">All products</button><button class="filter" data-filter="daily">Daily wellness</button><button class="filter" data-filter="routine">Routine support</button></div>
+      <div class="products" id="products">
+        <article class="product" data-category="daily"><div class="product-image"><img src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=800&q=85" alt="Supplement bottle on a clean background"><span class="tag">FEATURED</span><button class="add-button" data-name="Daily Essentials" data-price="29.00" aria-label="Add Daily Essentials to cart">+</button></div><div class="product-info"><div><h3>Daily Essentials</h3><p>Daily wellness supplement · See label for details</p></div><b>$29.00</b></div></article>
+        <article class="product" data-category="routine"><div class="product-image"><img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=85" alt="Wellness capsules and packaging"><button class="add-button" data-name="Balance Formula" data-price="34.00" aria-label="Add Balance Formula to cart">+</button></div><div class="product-info"><div><h3>Balance Formula</h3><p>Wellness supplement · See label for details</p></div><b>$34.00</b></div></article>
+        <article class="product" data-category="daily"><div class="product-image"><img src="https://images.unsplash.com/photo-1550572017-edd951b55104?auto=format&fit=crop&w=800&q=85" alt="Minimal supplement packaging"><button class="add-button" data-name="Daily Blend" data-price="26.00" aria-label="Add Daily Blend to cart">+</button></div><div class="product-info"><div><h3>Daily Blend</h3><p>Wellness supplement · See label for details</p></div><b>$26.00</b></div></article>
+        <article class="product" data-category="routine"><div class="product-image"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=800&q=85" alt="Natural wellness product bottle"><span class="tag">NEW</span><button class="add-button" data-name="Routine Plus" data-price="39.00" aria-label="Add Routine Plus to cart">+</button></div><div class="product-info"><div><h3>Routine Plus</h3><p>Wellness supplement · See label for details</p></div><b>$39.00</b></div></article>
+      </div>
+      <div class="cart-summary" id="cartSummary" aria-live="polite">Your cart is empty. <span>♡</span></div>
+      <p class="disclaimer">Product names, images, descriptions and prices shown are sample content for this website template. Replace them with accurate, legally compliant product information before publishing.</p>
+    </section>
+
+    <section class="approach" id="our-approach">
+      <div class="approach-image"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1100&q=85" alt="Balanced meal with fresh vegetables and wholesome foods"></div>
+      <div class="approach-copy"><span class="eyebrow">A BALANCED PERSPECTIVE</span><h2>Support your routine.<br><em>Respect your journey.</em></h2><p>Wellness is personal. We believe in clear product information and realistic expectations. Supplements are not a substitute for a varied, balanced diet or a healthy lifestyle.</p><a class="button button-outline" href="#faq">LEARN MORE <span>→</span></a></div>
+    </section>
+
+    <section class="quote"><span>“</span><p>Small, thoughtful choices<br>can shape a mindful routine.</p><small>YOUR WELLNESS. YOUR OWN PACE.</small></section>
+
+    <section class="faq section" id="faq">
+      <div class="section-heading"><div><span class="eyebrow">GOOD TO KNOW</span><h2>Frequently asked <em>questions.</em></h2></div></div>
+      <div class="faq-list">
+        <details><summary>Are these products intended to treat or cure a condition?</summary><p>No. Dietary supplements are not medicines and should not be presented as treatments or cures. Always read the product label and consult a qualified healthcare professional with questions.</p></details>
+        <details><summary>Can supplements replace a balanced diet?</summary><p>No. Supplements are not a replacement for a varied, balanced diet and healthy lifestyle.</p></details>
+        <details><summary>How do I know if a product is right for me?</summary><p>Review the full ingredient list, directions and warnings on the product label. Ask a qualified healthcare professional before use, especially if you take medication, are pregnant or breastfeeding, or have a health condition.</p></details>
+        <details><summary>How do I place an order?</summary><p>This template includes a demonstration cart only. A secure checkout and order-management system must be connected before the store can accept real orders.</p></details>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact"><div><span class="eyebrow">WE'RE HERE TO HELP</span><h2>Questions? Let's<br><em>talk.</em></h2></div><div class="contact-box"><p>Need help finding product information or have a question about your order? Get in touch with our team.</p><a class="button button-dark" id="contactLink" href="mailto:hello@example.com">CONTACT OUR TEAM ↗</a><small>Replace this email address with your store's official contact.</small></div></section>
+  </main>
+
+  <footer><a class="logo" href="#home"><span class="logo-mark">V</span><span>VITA FORM<small>DAILY WELLNESS</small></span></a><p>© <span id="year"></span> VITA FORM. All rights reserved.</p><a href="#home">BACK TO TOP ↑</a></footer>
+  <div class="legal">IMPORTANT: This website template is for demonstration purposes. Supplement claims, ingredients, labels, advertising, sales and distribution must comply with the laws and regulations in each market. Do not publish unverified weight-loss, health or performance claims. Consult qualified regulatory and healthcare professionals.</div>
+  <script src="script.js"></script>
+</body>
+</html>
